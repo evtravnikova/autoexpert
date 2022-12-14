@@ -9,7 +9,7 @@ getYear();
 
 //service section owl carousel
 $(".service_owl-carousel").owlCarousel({
-    autoplay: true,
+    autoplay: false,
     center: true,
     nav: true,
     loop: true,

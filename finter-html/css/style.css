@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
@@ -413,7 +413,7 @@ a:focus {
 
 .slider_section .detail-box .btn-box a {
   text-align: center;
-  width: 165px;
+  width: 185px;
 }
 
 .slider_section .detail-box .btn-box .btn1 {
@@ -635,7 +635,7 @@ a:focus {
   padding: 10px 35px;
   background-color: #2c7873;
   color: #ffffff;
-  border-radius: 0px;
+  border-radius: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
   border: 1px solid #2c7873;
@@ -761,12 +761,11 @@ a:focus {
 }
 
 .contact_section .form_container .btn_box button {
-  border: none;
   display: inline-block;
   padding: 12px 55px;
   background-color: #2c7873;
   color: #ffffff;
-  border-radius: 0px;
+  border-radius: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
   border: 1px solid #2c7873;
@@ -835,7 +834,7 @@ a:focus {
 .client_section .carousel-control-next {
   width: 50px;
   height: 50px;
-  border-radius: 0px;
+  border-radius: 0;
   background-color: #000000;
   opacity: 1;
   top: 28%;
