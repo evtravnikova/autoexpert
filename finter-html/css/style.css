@@ -522,10 +522,13 @@ a:focus {
 
 .service_section .box .detail-box {
   margin-top: 15px;
+  text-align: left;
+  list-style-type: circle;
 }
 
 .service_section .box .detail-box h5 {
   font-weight: bold;
+  text-align: center;
 }
 
 .service_section .box .detail-box p {
@@ -671,6 +674,7 @@ a:focus {
 
 .team_section .box .detail-box {
   width: 100%;
+  height: 215px;
   color: #ffffff;
   padding: 25px 15px;
   text-align: center;
