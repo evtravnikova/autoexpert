@@ -13,15 +13,16 @@ $(".service_owl-carousel").owlCarousel({
     center: true,
     nav: true,
     loop: true,
+    autoplayHoverPause: true,
     margin: 0,
     responsive: {
         0: {
             items: 1
         },
         768: {
-            items: 3,
+            items: 1,
         },
-        991: {
+        1200: {
             items: 3
         }
     }
@@ -68,14 +69,7 @@ $('.owl-filter-bar').on('click', '.item', function (e) {
 
     e.preventDefault();
 })
-/** google_map js **/
-function myMap() {
-    var mapProp = {
-        center: new google.maps.LatLng(40.712775, -74.005973),
-        zoom: 18,
-    };
-    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-}
+
 
 // nice select
 $(document).ready(function () {
