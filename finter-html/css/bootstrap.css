@@ -6647,6 +6647,10 @@ button.bg-dark:focus {
   border-color: #28a745 !important;
 }
 
+.border-darkgreen {
+  border-color: rgba(0, 68, 69, 0.6) !important;
+}
+
 .border-info {
   border-color: #17a2b8 !important;
 }
