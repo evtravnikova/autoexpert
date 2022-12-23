@@ -1046,4 +1046,9 @@ a:focus {
     width: 100%;
 }
 
+.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+}
 /*# sourceMappingURL=style.css.map */
