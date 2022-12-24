@@ -16,7 +16,7 @@ $(".service_owl-carousel").owlCarousel({
     loop: true,
     autoplayHoverPause: true,
     margin: 0,
-    smartSpeed: 1200,
+    smartSpeed: 600,
     responsive: {
         0: {
             items: 1
