@@ -174,8 +174,6 @@ a:focus {
     background-color: #159ec0;
     width: 35px;
     height: 35px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -304,10 +302,8 @@ a:focus {
     background-color: #ffffff;
     margin: 7px 0;
     -webkit-transition: all 0.3s;
-    transition: all 0.3s;
     position: relative;
     border-radius: 5px;
-    -webkit-transition: all .3s;
     transition: all .3s;
 }
 
@@ -347,8 +343,7 @@ a:focus {
 .custom_nav-container .navbar-toggler[aria-expanded="true"] .s-1 {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    margin: 0;
-    margin-bottom: -4px;
+    margin: 0 0 -4px;
 }
 
 .custom_nav-container .navbar-toggler[aria-expanded="true"] .s-2 {
@@ -358,8 +353,7 @@ a:focus {
 .custom_nav-container .navbar-toggler[aria-expanded="true"] .s-3 {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    margin: 0;
-    margin-top: -4px;
+    margin: -4px 0 0;
 }
 
 .custom_nav-container .navbar-toggler[aria-expanded="false"] .s-1,
@@ -502,7 +496,6 @@ a:focus {
     padding: 25px 10px;
     -webkit-transition: all .3s;
     transition: all .3s;
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
@@ -648,7 +641,6 @@ a:focus {
     border-radius: 100%;
     margin: 0 2px;
     background-color: #ccc;
-    border: none;
     outline: none;
 }
 
@@ -854,8 +846,7 @@ a:focus {
     -ms-flex-align: center;
     align-items: center;
     text-align: center;
-    margin: auto;
-    margin-top: 15px;
+    margin: 15px auto auto;
 }
 
 .client_section .client_container .img-box {
