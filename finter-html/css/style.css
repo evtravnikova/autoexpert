@@ -13,6 +13,12 @@ body {
     padding: 75px 0;
 }
 
+@media (max-width: 992px) {
+    .layout_padding2 {
+        padding: 10px 0;
+    }
+}
+
 .layout_padding2-top {
     padding-top: 75px;
 }
@@ -364,6 +370,7 @@ a:focus {
 }
 
 /*end header section*/
+
 /* slider section */
 .slider_section {
     -webkit-box-flex: 1;
@@ -394,9 +401,17 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-    font-weight: 600;
+    font-weight: 500;
+    line-height: 68px;
     margin-bottom: 15px;
     color: #ffffff;
+}
+
+@media (max-width: 992px) {
+    .slider_section .detail-box h1 {
+        font-weight: 500;
+        line-height: 48px;
+    }
 }
 
 .slider_section .detail-box .btn-box {
@@ -837,7 +852,7 @@ a:focus {
 }
 
 .client_section .client_container .img-box {
-    width: 350px;
+    width: 380px;
 }
 
 .client_section .client_container .img-box img {
@@ -875,15 +890,15 @@ a:focus {
     top: 28%;
     color: #ffffff;
     font-size: 12px;
-    margin: 0 2.5px;
+    margin: 0 4px;
 }
 
 .client_section .carousel-control-prev {
-    left: 15%;
+    left: 7%;
 }
 
 .client_section .carousel-control-next {
-    right: 15%;
+    right: 7%;
 }
 
 .client_section .carousel_btn-box {
@@ -1047,8 +1062,9 @@ a:focus {
 }
 
 .is-hidden {
-  visibility: hidden;
-  pointer-events: none;
-  position: absolute;
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
 }
+
 /*# sourceMappingURL=style.css.map */

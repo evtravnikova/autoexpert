@@ -85,7 +85,7 @@
 
 }
 
-@media (max-width: 576px) {
+@media (max-width: 776px) {
   .header_section .header_top .contact_nav a span {
     display: none;
   }
