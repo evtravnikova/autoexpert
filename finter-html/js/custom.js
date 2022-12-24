@@ -1,8 +1,7 @@
 // to get current year
 function getYear() {
-    var currentDate = new Date();
-    var currentYear = currentDate.getFullYear();
-    document.querySelector("#displayYear").innerHTML = currentYear;
+    let currentDate = new Date();
+    document.querySelector("#displayYear").innerHTML = currentDate.getFullYear().toString();
 }
 
 getYear();
@@ -10,12 +9,14 @@ getYear();
 //service section owl carousel
 $(".service_owl-carousel").owlCarousel({
     autoplay: true,
+    autoplayTimeout: 7500,
     autoHeight: true,
     center: true,
     nav: true,
     loop: true,
     autoplayHoverPause: true,
     margin: 0,
+    smartSpeed: 1200,
     responsive: {
         0: {
             items: 1
@@ -30,7 +31,7 @@ $(".service_owl-carousel").owlCarousel({
 });
 
 // owl carousel slider js
-var owl = $('.portfolio_carousel').owlCarousel({
+let owl = $('.portfolio_carousel').owlCarousel({
     loop: true,
     margin: 15,
     dots: false,
@@ -61,9 +62,9 @@ var owl = $('.portfolio_carousel').owlCarousel({
 // owl.owlcarousel2_filter
 
 $('.owl-filter-bar').on('click', '.item', function (e) {
-    var $items = $('.owl-filter-bar a')
-    var $item = $(this);
-    var filter = $item.data('owl-filter')
+    let $items = $('.owl-filter-bar a')
+    let $item = $(this);
+    let filter = $item.data('owl-filter')
     $items.removeClass("active");
     $item.addClass("active");
     owl.owlcarousel2_filter(filter);
